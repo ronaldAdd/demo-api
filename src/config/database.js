@@ -1,3 +1,6 @@
+const mysql2 = require('mysql2');
+console.log('mysql2 loaded');
+
 const { Sequelize } = require('sequelize');
 
 // Railway otomatis kasih DATABASE_URL
